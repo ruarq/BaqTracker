@@ -29,3 +29,7 @@ but you probably will get an email from Google telling you someone tried to logi
 There are other ways of notifying you when the status has changed, you just have to set them up yourself.
 Just edit the `notify` function in the `status_changed.py` file to do whatever you want.
 Make your computer beep, send a discord message or launch a nuclear missile. Whatever you want.
+
+### Extra
+If you want to run the program automatically on your machine, you can run the `crontab.sh` script to setup a cron job automatically.
+It will set it up so that the script runs from monday to friday at 8am and at 6pm.
