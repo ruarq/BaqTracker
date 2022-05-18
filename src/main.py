@@ -9,7 +9,7 @@ def main() -> None:
 	status = Baq.parse_status(response)
 	prev_status = Baq.get_prev_status()
 
-	if status == prev_status:
+	if status != prev_status:
 		Baq.save_prev_status(status)
 		status_changed.notify(status, prev_status)
 
